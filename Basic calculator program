@@ -1,0 +1,16 @@
+a,b =input().split()
+print("1.Addition")
+print("2.Subtraction")
+print("3.Multiplication")
+print("4.Division")
+option = int(input("enter option"))
+if option == 1:
+  print(a+b)
+elif option == 2:
+  print(a-b)
+elif option == 3:
+  print(a*b)
+elif option == 4:
+  print(a/b)
+else:
+print("invalid option")
